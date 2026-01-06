@@ -14,6 +14,14 @@ This repository serves as a central hub for my academic, professional, and perso
 
 Repository: https://github.com/NMadhumitha-MSIS/instacart-customer-behavior-ml
 
+### 🛡️ NetGuard – Cyberattack Detection Simulation (Java)
+- Simulated real-time cyberattack propagation across a network graph
+- Implemented Dijkstra’s algorithm using a custom MinHeap for packet routing
+- Built a recursive DefenseAI to isolate infected nodes and contain threats
+- Visualized infection spread and containment using a Java Swing GUI  
+
+Repository: https://github.com/NMadhumitha-MSIS/netguard-cyberattack-simulation
+
 ### ☁️ Cloud-Native Web Application (AWS + Terraform + DevOps)
 - Deployed a production-grade Node.js application on AWS using Infrastructure as Code (Terraform)
 - Implemented CI/CD pipelines with GitHub Actions and built custom AMIs using Packer
