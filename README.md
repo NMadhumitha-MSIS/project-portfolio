@@ -93,7 +93,7 @@ Repository: Coming soon
 
 ### Backend & Systems
 - Node.js, Express.js
-- REST APIs
+- REST APIs, Postman
 - Java Swing (desktop applications)
 - Data Structures & Algorithms (Graphs, Queues, Heaps, Recursion)
 
