@@ -22,6 +22,14 @@ Repository: https://github.com/NMadhumitha-MSIS/instacart-customer-behavior-ml
 
 Repository: https://github.com/NMadhumitha-MSIS/netguard-cyberattack-simulation
 
+### E-Commerce Retail Platform — Database Management & Analytics
+- Designed a CRUD-based retail system using MySQL with stored procedures and triggers
+- Handled 30+ transactional workflows reliably with strong data integrity
+- Built ETL pipelines and KPI dashboards in Power BI for customer and inventory insights
+- Explored Apache Spark for scalable transaction analytics  
+
+  Repository: Coming soon
+
 ### Cloud-Native Web Application (AWS + Terraform + DevOps)
 - Deployed a production-grade Node.js application on AWS using Infrastructure as Code (Terraform)
 - Implemented CI/CD pipelines with GitHub Actions and built custom AMIs using Packer
@@ -29,6 +37,41 @@ Repository: https://github.com/NMadhumitha-MSIS/netguard-cyberattack-simulation
 - Simulated real-world collaboration between Application and Platform teams  
 
 Repository: https://github.com/NMadhumitha-MSIS/cloud-native-aws-terraform-devops
+
+### YouthWise — Java Application Dashboard
+- Built a Java Swing dashboard to track academic, health, and sports data for 50+ users
+- Integrated interactive visualizations using Chart.js
+- Improved usability and data accessibility through role-based UI components  
+
+Repository: Coming soon
+
+### Ampan (AA) & Co — Fullstack E-Commerce Website
+- Developed a multi-role e-commerce platform with admin and user dashboards
+- Built product catalogs, cart modules, and responsive UI across 15+ pages
+- Integrated PayPal sandbox payments and optimized UI/UX performance  
+
+Repository: Coming soon
+
+### TRUNK: E-Vault — Blockchain-Based Document Storage
+- Designed a decentralized document storage system using Solidity and IPFS
+- Enabled secure, tamper-proof file management on Ethereum
+- Processed blockchain transaction logs using Pandas and NumPy for transparency  
+
+Repository: Coming soon
+
+### Missing Person Finder — Android Mobile Application
+- Co-developed a community-driven Android app for locating missing persons
+- Implemented authentication, profile management, and community posting features
+- Designed XML-based screens and Java backend logic for smooth user flows  
+
+Repository: Coming soon
+
+### PBL Hub — MERN Stack Learning Platform
+- Built a collaborative learning and grading platform using MERN stack
+- Supported 25+ students and reduced grading time by 25%
+- Created Tableau dashboards for fast student performance insights  
+
+Repository: Coming soon
 
 ## Skills & Tools
 - Python, SQL, Java
