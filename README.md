@@ -74,11 +74,52 @@ Repository: Coming soon
 Repository: Coming soon
 
 ## Skills & Tools
-- Python, SQL, Java
-- Machine Learning, Data Analysis, Power BI
-- Backend Systems & APIs
-- Cloud & DevOps (AWS, Terraform, CI/CD)
-- Databases (MySQL, PostgreSQL, MongoDB)
+
+### Programming Languages
+- Python, Java, SQL, JavaScript
+
+### Data Science & Analytics
+- Exploratory Data Analysis (EDA)
+- Machine Learning (Logistic Regression, Decision Trees, Random Forest, K-Means)
+- Feature Engineering & Model Evaluation
+- Pandas, NumPy, Scikit-learn
+- Power BI, Tableau
+
+### Databases & Data Engineering
+- MySQL, PostgreSQL, MongoDB
+- Stored Procedures, Triggers, ER Modeling
+- ETL Pipelines
+- Apache Spark (introductory / academic)
+
+### Backend & Systems
+- Node.js, Express.js
+- REST APIs
+- Java Swing (desktop applications)
+- Data Structures & Algorithms (Graphs, Queues, Heaps, Recursion)
+
+### Cloud & DevOps
+- AWS (EC2, RDS, S3, ALB, Route 53, CloudWatch, KMS, Secrets Manager)
+- Infrastructure as Code (Terraform)
+- CI/CD (GitHub Actions)
+- Packer, Linux, Bash
+
+### Frontend & Mobile
+- React.js, HTML, CSS, Bootstrap
+- Chart.js
+- Android Development (Java, XML)
+
+### Blockchain & Web3
+- Solidity
+- Ethereum, MetaMask
+- IPFS
+- Web3.js
+- Cryptographic Hashing (SHA-256)
+
+### Tools & Platforms
+- Git, GitHub
+- NetBeans, Android Studio
+- Jupyter Notebook
+- Figma
 
 ## Links
 - [Resume](https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing)
