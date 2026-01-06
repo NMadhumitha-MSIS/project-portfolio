@@ -4,16 +4,16 @@ Master of Science in Information Systems (MSIS) graduate student at Northeastern
 
 This repository serves as a central hub for my academic, professional, and personal projects across data science, software engineering, cloud, and systems design.
 
-# Featured Projects
+## Featured Projects
 (Links will be added as individual project repositories are created.)
 
-# Skills & Tools
+## Skills & Tools
 - Python, SQL, Java
 - Machine Learning, Data Analysis, Power BI
 - Backend Systems & APIs
 - Cloud & DevOps (AWS, Terraform, CI/CD)
 - Databases (MySQL, PostgreSQL, MongoDB)
 
-# Links
+## Links
 - 📄 Resume: https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing
 - 🔗 LinkedIn: https://www.linkedin.com/in/n-madhumitha/
