@@ -15,5 +15,6 @@ This repository serves as a central hub for my academic, professional, and perso
 - Databases (MySQL, PostgreSQL, MongoDB)
 
 ## Links
-- Resume: https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing
+- [Resume](https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing)
+- [Final Report](docs/Team13_Report.docx)
 - LinkedIn: https://www.linkedin.com/in/n-madhumitha/
