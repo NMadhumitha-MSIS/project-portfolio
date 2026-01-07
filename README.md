@@ -28,7 +28,7 @@ Repository: https://github.com/NMadhumitha-MSIS/netguard-cyberattack-simulation
 - Built ETL pipelines and KPI dashboards in Power BI for customer and inventory insights
 - Explored Apache Spark for scalable transaction analytics  
 
-Repository: Coming soon
+Repository: https://github.com/NMadhumitha-MSIS/ecommerce-retail-dbms-analytics
 
 ### Cloud-Native Web Application (AWS + Terraform + DevOps)
 - Deployed a production-grade Node.js application on AWS using Infrastructure as Code (Terraform)
