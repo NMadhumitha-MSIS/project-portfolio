@@ -43,7 +43,7 @@ Repository: https://github.com/NMadhumitha-MSIS/cloud-native-aws-terraform-devop
 - Integrated interactive visualizations using Chart.js
 - Improved usability and data accessibility through role-based UI components  
 
-Repository: Coming soon
+Repository: https://github.com/NMadhumitha-MSIS/youthwise-java-dashboard
 
 ### Ampan (AA) & Co — Fullstack E-Commerce Website
 - Developed a multi-role e-commerce platform with admin and user dashboards
