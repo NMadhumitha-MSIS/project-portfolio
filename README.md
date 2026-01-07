@@ -74,7 +74,6 @@ Repository: Coming soon
 Repository: Coming soon
 
 ## Skills & Tools
-
 ### Programming Languages
 - Python, Java, SQL, JavaScript
 
