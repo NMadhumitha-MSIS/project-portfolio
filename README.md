@@ -50,7 +50,7 @@ Repository: https://github.com/NMadhumitha-MSIS/youthwise-java-dashboard
 - Built product catalogs, cart modules, and responsive UI across 15+ pages
 - Integrated PayPal sandbox payments and optimized UI/UX performance  
 
-Repository: Coming soon
+Repository: https://github.com/NMadhumitha-MSIS/ampan-aa-co-ecommerce
 
 ### TRUNK: E-Vault — Blockchain-Based Document Storage
 - Designed a decentralized document storage system using Solidity and IPFS
