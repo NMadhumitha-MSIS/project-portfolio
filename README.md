@@ -107,10 +107,11 @@ Repository: Coming soon
 Repository: Coming soon
 
 ## Skills & Tools
-### Programming Languages
-- Python, Java, SQL, JavaScript
-
-### Data Science & Analytics
+### AI / ML & Data Science
+- Retrieval-Augmented Generation (RAG)
+- LLM Prompting & Integration (LLaMA, Groq)
+- LangChain, FAISS, Vector Stores
+- Reinforcement Learning (Contextual Bandits, REINFORCE)
 - Exploratory Data Analysis (EDA)
 - Machine Learning (Logistic Regression, Decision Trees, Random Forest, K-Means)
 - Feature Engineering & Model Evaluation
@@ -118,40 +119,22 @@ Repository: Coming soon
 - Power BI, Tableau
 
 ### Databases & Data Engineering
-- MySQL, PostgreSQL, MongoDB
-- Stored Procedures, Triggers, ER Modeling
-- ETL Pipelines
-- Apache Spark (introductory / academic)
+MySQL, PostgreSQL, MongoDB, Stored Procedures, Triggers, ER Modeling, ETL Pipelines, Apache Spark (introductory / academic)
 
 ### Backend & Systems
-- Node.js, Express.js
-- REST APIs, Postman
-- Java Swing (desktop applications)
-- Data Structures & Algorithms (Graphs, Queues, Heaps, Recursion)
+Node.js, Express.js, REST APIs, WebSocket, Postman, Java Swing, Data Structures & Algorithms (Graphs, Queues, Heaps, Recursion)
 
 ### Cloud & DevOps
-- AWS (EC2, RDS, S3, ALB, Route 53, CloudWatch, KMS, Secrets Manager)
-- Infrastructure as Code (Terraform)
-- CI/CD (GitHub Actions)
-- Packer, Linux, Bash
+AWS (EC2, RDS, S3, ALB, Route 53, CloudWatch, KMS, Secrets Manager), Infrastructure as Code (Terraform), CI/CD (GitHub Actions), Packer, Linux, Bash
 
 ### Frontend & Mobile
-- React.js, HTML, CSS, Bootstrap
-- Chart.js
-- Android Development (Java, XML)
+React.js, HTML, CSS, Bootstrap, Chart.js, Android Development (Java, XML)
 
 ### Blockchain & Web3
-- Solidity
-- Ethereum, MetaMask
-- IPFS
-- Web3.js
-- Cryptographic Hashing (SHA-256)
+Solidity, Ethereum, MetaMask, IPFS, Web3.js, Cryptographic Hashing (SHA-256)
 
 ### Tools & Platforms
-- Git, GitHub
-- NetBeans, Android Studio
-- Jupyter Notebook
-- Figma
+Git, GitHub, NetBeans, Android Studio, Jupyter Notebook, Figma
 
 ## Links
 - [Resume](https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing)
