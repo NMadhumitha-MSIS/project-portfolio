@@ -1,11 +1,11 @@
-# Project Portfolio – Madhumitha Nandhikatti
+# Project Portfolio - Madhumitha Nandhikatti
 
 Master of Science in Information Systems (MSIS) graduate student at Northeastern University with experience across data analytics, backend systems, cloud technologies, and fullstack development.
 
 This repository serves as a central hub for my academic, professional, and personal projects across data science, software engineering, cloud, and systems design.
 
 ## Featured Projects
-### MarketFlow — Real-Time Market Data Stream Processor (C++)
+### MarketFlow - Real-Time Market Data Stream Processor (C++)
 **Tech:** C++, STL, Statistical Analysis, Data Pipelines
 
 - Engineered a C++ stream processing engine that generates and ingests 10,000+ simulated market price points, modeling real-world volatility with configurable random walk and 1% probability spike injection events
@@ -55,7 +55,7 @@ Repository: https://github.com/NMadhumitha-MSIS/instacart-customer-behavior-ml
 
 Repository: https://github.com/NMadhumitha-MSIS/netguard-cyberattack-simulation
 
-### E-Commerce Retail Platform — Database Management & Analytics
+### E-Commerce Retail Platform - Database Management & Analytics
 - Designed a CRUD-based retail system using MySQL with stored procedures and triggers
 - Handled 30+ transactional workflows reliably with strong data integrity
 - Built ETL pipelines and KPI dashboards in Power BI for customer and inventory insights
@@ -71,35 +71,35 @@ Repository: https://github.com/NMadhumitha-MSIS/ecommerce-retail-dbms-analytics
 
 Repository: https://github.com/NMadhumitha-MSIS/cloud-native-aws-terraform-devops
 
-### YouthWise — Java Application Dashboard
+### YouthWise - Java Application Dashboard
 - Built a Java Swing dashboard to track academic, health, and sports data for 50+ users
 - Integrated interactive visualizations using Chart.js
 - Improved usability and data accessibility through role-based UI components  
 
 Repository: https://github.com/NMadhumitha-MSIS/youthwise-java-dashboard
 
-### Ampan (AA) & Co — Fullstack E-Commerce Website
+### Ampan (AA) & Co - Fullstack E-Commerce Website
 - Developed a multi-role e-commerce platform with admin and user dashboards
 - Built product catalogs, cart modules, and responsive UI across 15+ pages
 - Integrated PayPal sandbox payments and optimized UI/UX performance  
 
 Repository: https://github.com/NMadhumitha-MSIS/ampan-aa-co-ecommerce
 
-### TRUNK: E-Vault — Blockchain-Based Document Storage
+### TRUNK: E-Vault - Blockchain-Based Document Storage
 - Designed a decentralized document storage system using Solidity and IPFS
 - Enabled secure, tamper-proof file management on Ethereum
 - Processed blockchain transaction logs using Pandas and NumPy for transparency  
 
 Repository: Coming soon
 
-### Missing Person Finder — Android Mobile Application
+### Missing Person Finder - Android Mobile Application
 - Co-developed a community-driven Android app for locating missing persons
 - Implemented authentication, profile management, and community posting features
 - Designed XML-based screens and Java backend logic for smooth user flows  
 
 Repository: Coming soon
 
-### PBL Hub — MERN Stack Learning Platform
+### PBL Hub - MERN Stack Learning Platform
 - Built a collaborative learning and grading platform using MERN stack
 - Supported 25+ students and reduced grading time by 25%
 - Created Tableau dashboards for fast student performance insights  
