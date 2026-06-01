@@ -4,6 +4,10 @@ Master of Science in Information Systems (MSIS) graduate student at Northeastern
 
 This repository serves as a central hub for my academic, professional, and personal projects across data science, software engineering, cloud, and systems design.
 
+## Links
+- [Resume](https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing)
+- [LinkedIn](https://www.linkedin.com/in/n-madhumitha/)
+
 ## Featured Projects
 ### MarketFlow - Real-Time Market Data Stream Processor (C++)
 **Tech:** C++, STL, Statistical Analysis, Data Pipelines
@@ -135,7 +139,3 @@ Solidity, Ethereum, MetaMask, IPFS, Web3.js, Cryptographic Hashing (SHA-256)
 
 ### Tools & Platforms
 Git, GitHub, NetBeans, Android Studio, Jupyter Notebook, Figma
-
-## Links
-- [Resume](https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing)
-- [LinkedIn](https://www.linkedin.com/in/n-madhumitha/)
