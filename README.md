@@ -112,15 +112,7 @@ Repository: Coming soon
 
 ## Skills & Tools
 ### AI / ML & Data Science
-- Retrieval-Augmented Generation (RAG)
-- LLM Prompting & Integration (LLaMA, Groq)
-- LangChain, FAISS, Vector Stores
-- Reinforcement Learning (Contextual Bandits, REINFORCE)
-- Exploratory Data Analysis (EDA)
-- Machine Learning (Logistic Regression, Decision Trees, Random Forest, K-Means)
-- Feature Engineering & Model Evaluation
-- Pandas, NumPy, Scikit-learn
-- Power BI, Tableau
+Retrieval-Augmented Generation (RAG), LLM Prompting & Integration (LLaMA, Groq), LangChain, FAISS, Vector Stores, Reinforcement Learning (Contextual Bandits, REINFORCE), Exploratory Data Analysis (EDA), Machine Learning (Logistic Regression, Decision Trees, Random Forest, K-Means), Feature Engineering & Model Evaluation, Pandas, NumPy, Scikit-learn, Power BI, Tableau
 
 ### Databases & Data Engineering
 MySQL, PostgreSQL, MongoDB, Stored Procedures, Triggers, ER Modeling, ETL Pipelines, Apache Spark (introductory / academic)
