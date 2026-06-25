@@ -9,6 +9,17 @@ This repository serves as a central hub for my academic, professional, and perso
 - [LinkedIn](https://www.linkedin.com/in/n-madhumitha/)
 
 ## Featured Projects
+### GovSpend - Federal Spending Data Pipeline (Python + PostgreSQL)
+
+**Tech:** Python, PostgreSQL, Streamlit, REST API, pandas
+
+- Built an end-to-end data pipeline that fetches real US federal contract data from the USASpending.gov public API, processing $679.5B+ in government awards
+- Designed and implemented a PostgreSQL database schema to store, query, and manage award records with automated daily ingestion
+- Engineered a data cleaning layer to normalize messy government descriptions and categorize contracts into spending tiers (Mega 10B+, Large, Medium, Small)
+- Developed an interactive Streamlit dashboard with real-time filtering by agency, bar charts of top recipients, and a searchable data table
+
+Repository: https://github.com/NMadhumitha-MSIS/govspend
+
 ### MarketFlow - Real-Time Market Data Stream Processor (C++)
 **Tech:** C++, STL, Statistical Analysis, Data Pipelines
 
