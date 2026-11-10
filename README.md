@@ -58,6 +58,19 @@ Repository: https://github.com/NMadhumitha-MSIS/instacart-customer-behavior-ml
 
 ## More Projects
 
+### Portfolio Website (Next.js + Tailwind CSS)
+
+**Tech:** Next.js, React, Tailwind CSS, Vercel
+
+- Designed and built a personal portfolio site where all content lives in one data file, so updates never require touching the page code
+- Added scroll animations that switch off automatically for visitors who prefer reduced motion
+- Built with accessibility in mind: clear heading structure, strong color contrast, and visible keyboard focus outlines
+- Deployed on Vercel with automatic updates every time new code is pushed to GitHub
+
+Live site: [https://madhumithanandhikatti.vercel.app](https://madhumithanandhikatti.vercel.app/)
+
+Repository: https://github.com/NMadhumitha-MSIS/portfolio-website
+
 ### Madison RL Intelligence Agent
 
 **Tech:** Python, Reinforcement Learning, Contextual Bandits, REINFORCE, Groq LLaMA
