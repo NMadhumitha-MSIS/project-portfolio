@@ -5,7 +5,7 @@ Master of Science in Information Systems (MSIS) graduate student at Northeastern
 This repository serves as a central hub for my academic, professional, and personal projects across data science, software engineering, cloud, and systems design.
 
 ## Links
-- [Resume](https://docs.google.com/document/d/18yOjV_jlpMswW078qHHbbtyZsct-ky6p5ZISJQZnGsU/edit?usp=sharing)
+- [Resume](https://docs.google.com/document/d/1iByZLScbubQhIQwAUfdYZWsnwyDRMZejP061lDxgIb0/edit?usp=sharing)
 - [LinkedIn](https://www.linkedin.com/in/n-madhumitha/)
 
 ## Featured Projects
