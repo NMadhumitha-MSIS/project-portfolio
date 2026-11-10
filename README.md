@@ -1,4 +1,4 @@
-# Project Portfolio - Madhumitha Nandhikatti
+# Madhumitha Nandhikatti: Project Portfolio
 
 Master of Science in Information Systems (MSIS) graduate student at Northeastern University with experience across data analytics, backend systems, cloud technologies, and fullstack development.
 
@@ -9,136 +9,144 @@ This repository serves as a central hub for my academic, professional, and perso
 - [LinkedIn](https://www.linkedin.com/in/n-madhumitha/)
 
 ## Featured Projects
-### GovSpend - Federal Spending Data Pipeline (Python + PostgreSQL)
 
-**Tech:** Python, PostgreSQL, Streamlit, REST API, pandas
+### Access Checker: Small Business Accessibility Scanner (Node.js + Express)
 
-- Built an end-to-end data pipeline that fetches real US federal contract data from the USASpending.gov public API, processing $679.5B+ in government awards
-- Designed and implemented a PostgreSQL database schema to store, query, and manage award records with automated daily ingestion
-- Engineered a data cleaning layer to normalize messy government descriptions and categorize contracts into spending tiers (Mega 10B+, Large, Medium, Small)
-- Developed an interactive Streamlit dashboard with real-time filtering by agency, bar charts of top recipients, and a searchable data table
+**Tech:** Node.js, Express, Puppeteer, axe accessibility engine, JavaScript, HTML/CSS
 
-Repository: https://github.com/NMadhumitha-MSIS/govspend
+- Built a web tool that scans small business websites for accessibility barriers and explains each problem in plain English for owners who are not technical
+- Runs real browser audits with Puppeteer and the axe accessibility engine, with an Express API that ranks findings from critical to minor
+- Created a plain English rule library covering 26 accessibility rules, expanded whenever real scans surfaced new issues
+- Field tested on 9 Boston area small business websites, finding problems on 7 of 8 scannable sites, with low contrast text as the most common issue
+- Detects bot protection pages to avoid misleading reports, after screenshot debugging showed a scan had checked a security page instead of the real site
 
-### MarketFlow - Real-Time Market Data Stream Processor (C++)
-**Tech:** C++, STL, Statistical Analysis, Data Pipelines
-
-- Engineered a C++ stream processing engine that generates and ingests 10,000+ simulated market price points, modeling real-world volatility with configurable random walk and 1% probability spike injection events
-- Implemented a 20-period rolling moving average algorithm from scratch using STL vectors, computing buy/sell signals by comparing live price against the smoothed baseline at each time step
-- Designed a statistical anomaly detection system using a 2-standard-deviation threshold, flagging 775 anomalies (7.7% rate) across 10,000 data points including engineered extreme spike events of ±$15–$30
-- Exported structured anomaly reports to CSV with timestamp, price, moving average, standard deviation, and deviation columns, enabling downstream analysis and visualization pipelines
-
-Repository: https://github.com/NMadhumitha-MSIS/MarketFlow
+Repository: https://github.com/NMadhumitha-MSIS/access-checker
 
 ### Drug Interaction Checker
+
 **Tech:** Python, LangChain, FAISS, LLaMA 3.1 8B (Groq), NIH RxNorm API, FDA OpenFDA API, RAG
 
-- Built an AI-powered drug interaction checker for non-expert caregivers, grounded in official FDA label data using Retrieval-Augmented Generation (RAG)
-- Normalizes brand names to generic via NIH RxNorm API, then retrieves live FDA drug labels for each drug
-- Uses FAISS vector store + LangChain with LLaMA 3.1 8B (via Groq) to generate plain-English interaction summaries with citations
-- Includes a completeness check that blocks output and warns users if any drug label fails to retrieve
+- Built an AI drug interaction checker for caregivers without medical training, grounded in official FDA label data using Retrieval Augmented Generation (RAG)
+- Converts brand names to generic names with the NIH RxNorm API, then retrieves live FDA labels for each drug
+- Uses a FAISS vector store and LangChain with LLaMA 3.1 8B (via Groq) to write plain English interaction summaries with citations
+- Blocks the answer and warns the user if any drug label fails to load, so caregivers never get a silently incomplete result
 - Evaluated across 50 drug pairs (high severity, moderate, and control cases) with a target silent failure rate of 0%
 
 Repository: https://github.com/Gagana2572/Drug-Interaction-Checker
 
-### Madison RL Intelligence Agent
-**Tech:** Python, Reinforcement Learning, Contextual Bandits, REINFORCE, Groq LLaMA, Wikipedia, arXiv, Reddit, DuckDuckGo
+### GovSpend: Federal Spending Data Pipeline (Python + PostgreSQL)
 
-- Reinforcement learning system integrated into the Humanitarians.AI Madison agent framework for autonomous research and analysis
-- Implements two RL approaches: Contextual Bandits with UCB1 for per-step source selection, and REINFORCE with baseline for episode-level policy learning
-- Queries five free data sources (Wikipedia, arXiv, Reddit, DuckDuckGo) with Groq LLaMA synthesizing final intelligence reports
-- Built a custom RewardSignalEngine scoring fetched content on success, length, and keyword relevance, clipped to [-1.0, 2.0]
-- UCB Bandit improved average reward from 0.590 to 0.873 over training; REINFORCE improved from 0.465 to 0.553
-- Fully CPU-compatible; runs in ~5–8 minutes on Google Colab with no GPU required
+**Tech:** Python, PostgreSQL, Streamlit, REST API, pandas
 
-Repository: https://github.com/NMadhumitha-MSIS/Madison-RL-Agent
+- Built a complete data pipeline that fetches real US federal contract data from the USASpending.gov public API, processing over $679.5B in government awards
+- Designed a PostgreSQL schema to store, query, and manage award records with automated daily ingestion
+- Built a data cleaning layer that normalizes messy government descriptions and sorts contracts into spending tiers (Mega 10B+, Large, Medium, Small)
+- Developed an interactive Streamlit dashboard with filtering by agency, charts of top recipients, and a searchable data table
 
-### Instacart Customer Behavior & Product Popularity Analysis
-**Tech:** Python, Pandas, Scikit-learn, EDA, K-Means, Random Forest  
-- Analyzed 3M+ grocery orders to uncover customer behavior and reorder patterns  
-- Segmented customers using RFM metrics and K-Means clustering  
-- Predicted product popularity using ML models, with Random Forest performing best  
-- Delivered actionable insights for inventory planning and personalized marketing 
+Repository: https://github.com/NMadhumitha-MSIS/govspend
+
+### Instacart Customer Behavior and Product Popularity Analysis
+
+**Tech:** Python, pandas, EDA, KMeans, Random Forest
+
+- Analyzed over 3 million grocery orders to uncover customer behavior and reorder patterns
+- Segmented customers using RFM metrics and KMeans clustering, identifying a loyal VIP group
+- Predicted product popularity with machine learning, with Random Forest performing best
+- Turned findings into practical recommendations for inventory planning and personalized marketing
 
 Repository: https://github.com/NMadhumitha-MSIS/instacart-customer-behavior-ml
 
-### NetGuard – Cyberattack Detection Simulation (Java)
-- Simulated real-time cyberattack propagation across a network graph
-- Implemented Dijkstra’s algorithm using a custom MinHeap for packet routing
-- Built a recursive DefenseAI to isolate infected nodes and contain threats
-- Visualized infection spread and containment using a Java Swing GUI  
+## More Projects
+
+### Madison RL Intelligence Agent
+
+**Tech:** Python, Reinforcement Learning, Contextual Bandits, REINFORCE, Groq LLaMA
+
+- Reinforcement learning system for the Humanitarians.AI Madison agent that learns which research sources give the most useful results
+- Uses Contextual Bandits with UCB1 for per step source selection and REINFORCE with baseline for episode level policy learning
+- Queries free data sources (Wikipedia, arXiv, Reddit, DuckDuckGo), with Groq LLaMA writing the final reports
+- UCB Bandit improved average reward from 0.590 to 0.873 over training, and runs fully on CPU in about 5 to 8 minutes
+
+Repository: https://github.com/NMadhumitha-MSIS/Madison-RL-Agent
+
+### MarketFlow: Real Time Market Data Stream Processor (C++)
+
+**Tech:** C++, STL, Statistical Analysis, Data Pipelines
+
+- Built a C++ stream processing engine that generates and ingests 10,000+ simulated market prices with realistic volatility and injected spike events
+- Implemented a 20 period rolling moving average from scratch to produce buy and sell signals
+- Flagged 770 anomalies (7.7% rate) using a two standard deviation threshold, exported to CSV for further analysis
+
+Repository: https://github.com/NMadhumitha-MSIS/MarketFlow
+
+### NetGuard: Cyberattack Detection Simulation (Java)
+
+- Simulated real time cyberattack spread across a network graph of servers
+- Implemented Dijkstra's algorithm with a custom MinHeap for packet routing, and a recursive defense algorithm that isolates infected nodes
+- Visualized infection spread and containment in a Java Swing interface
 
 Repository: https://github.com/NMadhumitha-MSIS/netguard-cyberattack-simulation
 
-### E-Commerce Retail Platform - Database Management & Analytics
-- Designed a CRUD-based retail system using MySQL with stored procedures and triggers
-- Handled 30+ transactional workflows reliably with strong data integrity
-- Built ETL pipelines and KPI dashboards in Power BI for customer and inventory insights
-- Explored Apache Spark for scalable transaction analytics  
+### Cloud Native Web Application (AWS + Terraform + DevOps)
 
-Repository: https://github.com/NMadhumitha-MSIS/ecommerce-retail-dbms-analytics
-
-### Cloud-Native Web Application (AWS + Terraform + DevOps)
-- Deployed a production-grade Node.js application on AWS using Infrastructure as Code (Terraform)
-- Implemented CI/CD pipelines with GitHub Actions and built custom AMIs using Packer
-- Designed a highly available and secure architecture with ALB, Auto Scaling, RDS, and CloudWatch
-- Simulated real-world collaboration between Application and Platform teams  
+- Deployed a production grade Node.js application on AWS using Infrastructure as Code (Terraform)
+- Built CI/CD pipelines with GitHub Actions and custom AMIs with Packer
+- Designed a highly available, secure architecture with ALB, Auto Scaling, RDS, and CloudWatch
 
 Repository: https://github.com/NMadhumitha-MSIS/cloud-native-aws-terraform-devops
 
-### YouthWise - Java Application Dashboard
-- Built a Java Swing dashboard to track academic, health, and sports data for 50+ users
-- Integrated interactive visualizations using Chart.js
-- Improved usability and data accessibility through role-based UI components  
+### Ecommerce Retail Platform: Database Management and Analytics
+
+- Designed a MySQL retail system with stored procedures and triggers, handling 30+ transactional workflows reliably
+- Built ETL pipelines and Power BI dashboards for customer and inventory insights
+
+Repository: https://github.com/NMadhumitha-MSIS/ecommerce-retail-dbms-analytics
+
+### YouthWise: Java Application Dashboard
+
+- Built a Java Swing dashboard with Chart.js visualizations tracking academic, health, and sports data for 50+ users
 
 Repository: https://github.com/NMadhumitha-MSIS/youthwise-java-dashboard
 
-### Ampan (AA) & Co - Fullstack E-Commerce Website
-- Developed a multi-role e-commerce platform with admin and user dashboards
-- Built product catalogs, cart modules, and responsive UI across 15+ pages
-- Integrated PayPal sandbox payments and optimized UI/UX performance  
+### Ampan (AA) & Co: Full Stack Ecommerce Website
+
+- Developed an ecommerce platform with admin and user dashboards, product catalogs, and cart modules across 15+ pages
+- Integrated PayPal sandbox payments
 
 Repository: https://github.com/NMadhumitha-MSIS/ampan-aa-co-ecommerce
 
-### TRUNK: E-Vault - Blockchain-Based Document Storage
-- Designed a decentralized document storage system using Solidity and IPFS
-- Enabled secure, tamper-proof file management on Ethereum
-- Processed blockchain transaction logs using Pandas and NumPy for transparency  
+### TRUNK: E Vault, Blockchain Document Storage
+
+- Designed a decentralized document storage system using Solidity, Ethereum, and IPFS for tamper resistant file management
 
 Repository: Coming soon
 
-### Missing Person Finder - Android Mobile Application
-- Co-developed a community-driven Android app for locating missing persons
-- Implemented authentication, profile management, and community posting features
-- Designed XML-based screens and Java backend logic for smooth user flows  
+### Missing Person Finder: Android Mobile Application
+
+- Built with a teammate: a community Android app for sharing and finding missing persons information, with login, profiles, and posts
 
 Repository: Coming soon
 
-### PBL Hub - MERN Stack Learning Platform
-- Built a collaborative learning and grading platform using MERN stack
-- Supported 25+ students and reduced grading time by 25%
-- Created Tableau dashboards for fast student performance insights  
+### PBL Hub: MERN Learning Platform
+
+- Built a learning and grading platform using the MERN stack that supported 25+ students and reduced grading time by 25%
 
 Repository: Coming soon
 
-## Skills & Tools
-### AI / ML & Data Science
-Retrieval-Augmented Generation (RAG), LLM Prompting & Integration (LLaMA, Groq), LangChain, FAISS, Vector Stores, Reinforcement Learning (Contextual Bandits, REINFORCE), Exploratory Data Analysis (EDA), Machine Learning (Logistic Regression, Decision Trees, Random Forest, K-Means), Feature Engineering & Model Evaluation, Pandas, NumPy, Scikit-learn, Power BI, Tableau
+## Skills and Tools
 
-### Databases & Data Engineering
-MySQL, PostgreSQL, MongoDB, Stored Procedures, Triggers, ER Modeling, ETL Pipelines, Apache Spark (introductory / academic)
+**AI, ML, and Data Science:** Retrieval Augmented Generation (RAG), LLM integration (LLaMA, Groq), LangChain, FAISS, Reinforcement Learning, Exploratory Data Analysis, Machine Learning (Logistic Regression, Decision Trees, Random Forest, KMeans), pandas, NumPy, Power BI, Tableau
 
-### Backend & Systems
-Node.js, Express.js, REST APIs, WebSocket, Postman, Java Swing, Data Structures & Algorithms (Graphs, Queues, Heaps, Recursion)
+**Databases and Data Engineering:** MySQL, PostgreSQL, MongoDB, Stored Procedures, Triggers, ER Modeling, ETL Pipelines, Apache Spark (introductory)
 
-### Cloud & DevOps
-AWS (EC2, RDS, S3, ALB, Route 53, CloudWatch, KMS, Secrets Manager), Infrastructure as Code (Terraform), CI/CD (GitHub Actions), Packer, Linux, Bash
+**Backend and Systems:** Node.js, Express.js, REST APIs, WebSocket, Postman, Java, Data Structures and Algorithms
 
-### Frontend & Mobile
-React.js, HTML, CSS, Bootstrap, Chart.js, Android Development (Java, XML)
+**Cloud and DevOps:** AWS (EC2, RDS, S3, ALB, Route 53, CloudWatch, KMS, Secrets Manager), Terraform, CI/CD (GitHub Actions), Packer, Linux, Bash
 
-### Blockchain & Web3
-Solidity, Ethereum, MetaMask, IPFS, Web3.js, Cryptographic Hashing (SHA-256)
+**Frontend and Mobile:** React.js, Next.js, HTML, CSS, Tailwind CSS, Bootstrap, Chart.js, Android (Java, XML)
 
-### Tools & Platforms
-Git, GitHub, NetBeans, Android Studio, Jupyter Notebook, Figma
+**Accessibility and Testing:** Puppeteer, axe accessibility engine, WCAG accessibility guidelines
+
+**Blockchain:** Solidity, Ethereum, MetaMask, IPFS, Web3.js
+
+**Tools:** Git, GitHub, VS Code, NetBeans, Android Studio, Jupyter Notebook, Figma
